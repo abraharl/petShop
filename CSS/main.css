@@ -1,0 +1,355 @@
+body{
+  position:relative;
+}
+
+#social{
+  position:relative;
+}
+
+#top{
+  float:left;
+  width:100%;
+  height:10px;
+  background-color:#555555;
+  margin-bottom:5px;
+}
+
+#mainHead{
+  margin:0px auto 0px auto;
+  background-color:#ffffff;  
+  width:930px;
+  font-family: 'CabinRegular', Arial, sans-serif;
+}
+
+#headElements
+{
+  width:100%;
+  position:relative;
+  float:left;
+}
+
+#logo{
+  height:160px;
+  width:200px;
+  vertical-align:top;
+  margin:0px 180px;
+}
+
+#navMenu{
+  background-color:#f89e0d;
+  float:left;
+  width:100%;
+  height:25px;
+  margin-top:10px;
+}
+
+#search{
+  padding-top:143px;
+}
+
+#headSocial{
+  padding-top:135px;
+  width:160px;
+}
+
+.searchIcon{
+  height:22px;
+  vertical-align:bottom;
+}
+
+.element{
+  float:left;
+  width:179px;
+}
+
+.socIcon{
+  height:30px;
+  vertical-align:middle;
+}
+
+a.menuItem{
+  text-decoration:none;
+  color:#ffffff;
+  padding:0px 35px;
+}
+
+a.menuItem:hover{
+  text-decoration:underline;
+  font-weight:bold;
+  color:#ffffff;
+}
+
+a.itemleft{
+  padding:0px 10px 0px 30px;
+}
+
+a.itemright{
+  padding:0px 30px 0px 10px;
+}
+
+#main{
+  width:930px;
+  margin:0px 203px;
+  float:left;
+  background-color:#ffffff;
+}
+
+#itemContent{
+  position:relative;
+  float:left;
+  padding-left:60px;
+}
+
+#images{
+  position:relative;
+  float:left;
+  margin-right:10px;
+}
+
+#lgImg{
+  height:278px;
+  width:347px;
+}
+
+.smImg{
+  height:100px;
+  width:100px;
+  float:left;
+}
+
+.selected{
+  border:solid 1px #000000;
+}
+
+.image{
+  height:100%;
+  width:100%;
+}
+
+.title{
+  font-size:30px;
+}
+
+.lgGrey{
+  font-size:30px;
+  font-weight:bold;
+  color:#999999;
+}
+
+#smlImgs{
+  position:relative;
+}
+
+.grey{
+  color:#999999;
+}
+
+#tabBox{
+  float:left;
+  margin-top:10px;
+  padding-left:60px;
+  width:650px;
+}
+
+#tabs{
+  position:relative;
+}
+
+.tab{
+  float:left;
+  border-top: solid 1px #999999;
+  border-left:solid 1px #999999;
+  border-right:solid 1px #999999;
+  margin-right:3px;
+  position:relative;
+}
+
+.inactiveTab{
+  background-color:#666666;
+}
+
+.activeTab{
+  background-color:#ffffff;
+}
+
+#popup{
+  display:none;
+  z-index:2;
+}
+
+#tabContent{
+  float:left;
+  background-color:#ffffff;
+  color:#999999;
+  border: solid 1px #999999;
+  margin-bottom:20px;
+}
+
+#mainFoot{
+  width:100%;
+  color:#ffffff;
+  background-color:#555555;
+  float:left;
+  font-family: 'CabinRegular', Arial, sans-serif;
+}
+
+.clear{
+  width:100%;
+  height:2px;
+  background-color:#ffffff;
+  position:absolute;
+  bottom:-1;
+}
+
+#allRights{
+  position:relative;
+  margin-top:15px;
+  width:100%;
+  float:left;
+}
+
+#policy{
+  float:left;
+  width:360px;
+}
+
+#lion{
+  float:right;
+}
+
+#credits{
+  position:relative;
+}
+
+#container{
+  width:830px;
+  margin:0px auto;
+}
+
+#items{
+  position:relative;
+  width:100%;
+  float:left;
+}
+
+.catagory{
+  float:left;
+  margin-left:10px;
+}
+
+.head{
+  font-size:16px;
+  margin:5px 0px;
+}
+
+#outter{
+  width:100%;
+  margin:0px auto;
+  background-color:#bcf6f3;
+  float:left;
+  padding-bottom:30px;
+  font-family: 'CabinRegular', Arial, sans-serif;
+}
+
+.largeTxt{
+  font-size:22pt;
+}
+
+#cartContainer{
+  width:250px;
+  position:absolute;
+  z-index:2;
+  top:10px;
+  right:315px;
+  font-family: 'CabinRegular', Arial, sans-serif;
+}
+
+#cart{
+  width:100%;
+  float:left;
+  background-color:#555555;
+  color:#ffffff;
+  display:none;
+}
+
+.bottomDot{
+  border-bottom:dotted 2px #ffffff;
+}
+
+a.checkOut{
+  text-decoration:none;
+  color:#bcf6f3;
+  margin-left:20px;
+}
+
+.lineItem{
+  position:relative;
+  font-size:11px;
+}
+
+.itempart{
+  float:left;
+  height:100%;
+  margin-left:3px;
+  max-width:175px;
+}
+
+.section{
+  width:100%;
+  float:left;
+}
+
+.x{
+  cursor:pointer;
+}
+
+#cartItems{
+  height:45px;
+  width:90px;
+  border-radius: 0 0 90px 90px;
+  -moz-border-radius: 0 0 90px 90px;
+  -webkit-border-radius: 0 0 90px 90px;
+  background:#555555;
+  float:right;
+  color:#ffffff;
+}
+
+.count{
+  margin-left:30px;
+}
+
+#total{
+  padding-left:25px;
+}
+
+#window{
+  display:none;
+  font-family: 'CabinRegular', Arial, sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width:100%;
+  height:100%;
+  z-index: 100;
+  float:left;
+  background-color:#555555;
+}
+
+#window div{
+  width:500px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border:1px solid #000000;
+  padding:10px;
+  color:#000000;
+}
+
+a img{
+  border:0px;
+}
+
+.socialEle{
+   float:left;
+   width:50px;
+   height:25px;
+}
